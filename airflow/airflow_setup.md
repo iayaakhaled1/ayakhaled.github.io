@@ -4,7 +4,7 @@
    - Now, you'll see an option called Turn Windows features on or off in the control panel -->  you should find an option for Windows Subsystem for Linux --> check that option
    - This will set up WSL on your Windows machine. Click on the OK button.
    - Once this is complete, you'll need to restart your machine for this feature to take effect.
-   ![image](https://github.com/iayaakhaled1/airflow/assets/145045777/f69b3ff0-b6df-4bde-b469-e1f61ac754ad)
+   ![airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/f69b3ff0-b6df-4bde-b469-e1f61ac754ad)
 2) Install Ubuntu
     - Once the restart is complete, come back to the Start menu, and search for the Microsoft Store --> Search for the Ubuntu distribution.
     - Install Ubuntu to work the Linux virtual machine using WSL.
@@ -49,7 +49,7 @@ pip install --upgrade pip
 pip install "apache-airflow[celery]==2.8.0" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.0/constraints-3.8.txt"
 ```
 - This message indicates that Apache Airflow, along with all of its dependencies, has been successfully installed.
-   ![image](https://github.com/iayaakhaled1/airflow/assets/145045777/ede6fe46-57d6-45f9-ac30-e54661434e81)
+   ![[airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/ede6fe46-57d6-45f9-ac30-e54661434e81)
 - Once the Airflow installation is complete all you need to do is run Airflow version.
 ```
 airflow version
@@ -62,13 +62,13 @@ airflow info
 ```
 - Apache Airflow's configuration settings are organized into distinct sections, with each section title highlighted in green for easy navigation. 
 - These settings are designed to be customizable, allowing you to fine-tune Airflow to meet your specific needs.
-![image](https://github.com/iayaakhaled1/airflow/assets/145045777/d7868bad-a25e-44cb-821c-a6533b000869)
+![[airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/d7868bad-a25e-44cb-821c-a6533b000869)
 ------------------------------------------------------------------------------------------
 8) To check the content of airflow config files
 ```
 ls -l
 ```
-![image](https://github.com/iayaakhaled1/airflow/assets/145045777/4e853b28-6b24-4170-87e6-cd8e2407ca31)
+![[airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/4e853b28-6b24-4170-87e6-cd8e2407ca31)
 
 ------------------------------------------------------------------------------------------
  9) You can interact with this config file from the UI but you can also call airflow config on the command line and interact with the config file.
@@ -111,14 +111,14 @@ airflow webserver
 ```
 - The web server will start on a specified host and port, allowing you to access the Airflow UI in a web browser.
 - At this point, Airflow should be up and running successfully on your local machine.
-![image](https://github.com/iayaakhaled1/airflow/assets/145045777/9d2ae6d8-c9fe-40dd-b8dc-aab453333b5c)
+![airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/9d2ae6d8-c9fe-40dd-b8dc-aab453333b5c)
 ------------------------------------------------------------------------------------------
 ###  Access the Airflow web interface
 - The Airflow webserver typically runs on localhost and listens on a specific port. By default, the port used is 8080.
 - Therefore, the URL to access the Airflow web interface on localhost would be http://localhost:8080.
 - To access the Airflow web interface from your local machine, you can open a web browser and enter http://localhost:8080 in the address bar. 
 - If the webserver is running and reachable, you should see the Airflow UI, where you can manage your workflows and perform other Airflow-related tasks.
-![image](https://github.com/iayaakhaled1/airflow/assets/145045777/965d78e8-a5d8-452d-a38d-8ba82093c640)
+![airflow_config](https://github.com/iayaakhaled1/airflow/assets/145045777/965d78e8-a5d8-452d-a38d-8ba82093c640)
 ------------------------------------------------------------------------------------------
 ### Define and manage workflows:
 - With Airflow up and running, you can define your workflows using Python code or the Airflow UI.
